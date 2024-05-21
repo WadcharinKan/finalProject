@@ -1,0 +1,278 @@
+/* =========== Google Fonts ============ */
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+
+/* =============== Globals ============== */
+* {
+    font-family: 'Sarabun', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logoContainer {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #004AAD;
+    box-sizing: border-box;
+    /* เพิ่มบรรทัดนี้เพื่อให้ padding และ border ถูกนำเข้าไปคำนวณในความกว้างและความสูงขององค์ประกอบ */
+}
+
+#logoImage {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-bottom {
+    text-decoration: none;
+    color: inherit;
+    ;
+}
+
+nav {
+    background-color: #004AAD;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 3rem;
+    padding: bottom 0;;
+
+    & .logo {
+        margin-bottom: 1rem;
+
+        &.a {
+            text-decoration: none;
+        }
+
+        .tramrmutt {
+            color: #fff;
+            font-size: 30px;
+        }
+
+    }
+}
+
+.search {
+    font-size: 25px;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-bottom {
+    background: #dadada80;
+    color: #000;
+    border-radius: 30px;
+    width: 250px;
+    margin: 10px;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#map {
+    height: 500px; /* ปรับความสูงของแผนที่ตามที่คุณต้องการ */
+    width: 100%;   /* ทำให้แผนที่กว้างเต็มความกว้างของคอนเทนเนอร์ */
+    margin: 10px;  /* กำหนดขอบพื้นที่รอบๆ แผนที่เท่ากันทั้งสี่ด้าน */
+    box-sizing: border-box; /* รวม padding และ border ในความกว้างและความสูงทั้งหมดของแผนที่ */
+}
+
+
+.dropdown {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.popup {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    color: black;
+    display: none;
+}
+
+button {
+    background: #dadada80;
+    color: #000;
+    border-radius: 30px;
+    width: 200px;
+    margin: 20px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+    /* กำหนดระยะห่างภายในของปุ่ม */
+    padding: 5px 15px;
+    /* ขนาดของปุ่ม */
+
+}
+
+.cancel-button {
+    margin: 20px;
+    /* กำหนดระยะห่างด้านนอกของปุ่ม */
+    padding: 5px 10px;
+    /* กำหนดระยะห่างภายในของปุ่ม */
+    background-color: #cb7979;
+    /* สีพื้นหลังปุ่ม */
+    color: #ffffff;
+    /* สีข้อความของปุ่ม */
+    padding: 5px 15px;
+    /* ขนาดของปุ่ม */
+    border: none;
+    /* ไม่มีเส้นขอบ */
+    border-radius: 10px;
+    /* มุมของปุ่มเป็นวงกลม */
+    cursor: pointer;
+    /* เมาส์เป็นรูปไขว้ */
+    font-size: 16px;
+    /* ขนาดตัวอักษร */
+
+}
+
+.cancel-button:hover {
+    background-color: #cc0000;
+    /* สีพื้นหลังปุ่มเมื่อโฮเวอร์ */
+}
+
+.img-button {
+    margin: 0;
+    /* กำหนดระยะห่างด้านนอกของปุ่ม */
+    padding: 5px 10px;
+    /* กำหนดระยะห่างภายในของปุ่ม */
+    background-color: #446ddc;
+    /* สีพื้นหลังปุ่ม */
+    color: #ffffff;
+    /* สีข้อความของปุ่ม */
+    padding: 5px 15px;
+    /* ขนาดของปุ่ม */
+    border: none;
+    /* ไม่มีเส้นขอบ */
+    border-radius: 10px;
+    /* มุมของปุ่มเป็นวงกลม */
+    cursor: pointer;
+    /* เมาส์เป็นรูปไขว้ */
+    font-size: 16px;
+    /* ขนาดตัวอักษร */
+
+}
+
+.img-button:hover {
+    background-color: #6b89e2;
+    /* สีพื้นหลังปุ่มเมื่อโฮเวอร์ */
+}
+
+button {
+    background: #dadada80;
+    color: #000;
+    border-radius: 30px;
+    width: 200px;
+    margin: 20px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+    /* กำหนดระยะห่างภายในของปุ่ม */
+    padding: 5px 15px;
+    /* ขนาดของปุ่ม */
+
+}
+
+#schedulePopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #4d4d4d;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 1000;
+
+
+}
+
+#scheduleImage {
+    width: 100%;
+    max-width: 50%;
+    height: auto; 
+
+}
+
+#popupOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.resize-button {
+
+    margin-top: 10px;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    width: 30px; 
+    height: 30px; 
+
+}
+
+.close-button::after {
+    content: ''; 
+    position: absolute;
+    top: -50px;
+    right: -30px;
+
+}
+
+

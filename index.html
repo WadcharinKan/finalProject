@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แผนที่ Google พร้อมมาร์กเกอร์</title>
+    <link rel="stylesheet" href="styles.css">
+
+<body>
+    <nav>
+        <tdiv class="logo">
+            <a class="tramrmutt">Tram RMUTT</a>
+        </tdiv>
+    </nav>
+
+    <button onclick="toggleLocation()">ตำแหน่งปัจจุบัน</button>
+
+    <div class="dropdown">
+        <label for="areasDropdown">เลือกสถานที่</label>
+        <select id="areasDropdown"></select>
+        <div id="popup" class="popup"></div>
+
+    </div>
+    <div>
+        <a href="index.html" class="cancel-button">ยกเลิก</a>
+    </div>
+    <br>
+    <a class="img-button" id="showScheduleButton">ตารางการเดินรถ</a>
+
+    <div id="popupOverlay"></div>
+    <div id="schedulePopup">
+        <button class="close-button" id="closePopupButton"></button>
+        <img id="scheduleImage" src="img/image.png" alt="ตารางการเดินรถ">
+        <br>
+        <button class="resize-button" id="increaseSizeButton">เพิ่มขนาด</button>
+        <button class="resize-button" id="decreaseSizeButton">ลดขนาด</button>
+    </div>
+
+
+
+
+
+    <div id="map"></div>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJNYHywWnFfn3RdPji8ty8q6e-2t7YSJA&callback=initMap&libraries=geometry"
+        async defer></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
